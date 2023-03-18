@@ -2,4 +2,148 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: Roboto;
+}
+
+#GPT {
+  color: #3db6aa;
+}
+
+a:link,
+a:visited {
+  text-decoration: none;
+  color: white;
+}
+
+a:hover {
+  text-decoration: none;
+  color: #3db6aa;
+  font-size: 125%;
+}
+
+button:hover {
+  color: #3db6aa;
+}
+
+a:active {
+  text-decoration: none;
+}
+
+.navbar {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: black;
+  padding: 10px;
+}
+
+.logo img {
+  width: 50px;
+  height: auto;
+  border-radius: 10px;
+}
+
+.sign-in {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  margin: 5px;
+}
+
+.usernameinput {
+  background-color: #e4e4e4;
+  border-radius: 10px;
+  border: none;
+  padding-left: 5px;
+}
+
+.button {
+  background-color: #e4e4e4;
+  border-radius: 10px;
+  padding: 0px 5px 0px 5px;
+  margin-left: 5px;
+  border: none;
+}
+
+.discription {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.discriptionspan {
+  padding-left: 5px;
+  font-style: italic;
+}
+
+body {
+  background-color: black;
+  color: white;
+}
+
+.articlelink {
+  text-decoration: none;
+  color: black;
+}
+
+a.articlelink:link,
+a.articlelink:visited {
+  text-decoration: none;
+  color: white;
+}
+a.articlelink:hover {
+  color: white;
+  color: #3db6aa;
+}
+#imgCenter {
+  width: 340px;
+  height: 191px;
+  object-fit: fill;
+  border-radius: 10px;
+}
+.main {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  padding: 0 100px 0 100px;
+}
+.mainSub {
+  max-width: 360px;
+  height: auto;
+  padding: 10px;
+  margin: 50px;
+  border-radius: 10px;
+  margin: 50px 50px 50px 50px;
+  border: groove 2px #3db6aa;
+}
+.aside {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+  color: #3db6aa;
+}
+
+.firstLink {
+  padding: 3px 10px 0 10px;
+}
+
+.secondLink {
+  padding: 3px 20px 0 0;
+}
+
+.footer {
+  text-align: center;
+  font-size: 10px;
+  padding: 10px;
+}
+
+.about {
+  display: flex;
+  justify-content: center;
+  padding: 200px;
+  font-size: 100px;
 }
